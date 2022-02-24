@@ -30,8 +30,6 @@ header img{
 section {
     display: flex;
     height: 300px;
-    text-align: center;
-
 }
 
 section div:nth-child(1){
