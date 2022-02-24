@@ -1,0 +1,53 @@
+#bg{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+body{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(231, 243, 243);
+
+}
+header , footer{
+    text-align: left;
+    margin-left: 50px;
+}
+
+section {
+    display: flex;
+    height: 300px;
+    text-align: center;
+
+}
+
+section div:nth-child(1){
+    flex: 1;
+    text-align: left;
+    margin-left: 50px;
+    max-width: 100px;
+}
+
+section div:nth-child(2){
+    flex: 1;
+    text-align: right;
+    margin-right: 50px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 0.7em;
+}
+
+.bottom{
+    align-items: flex-end;
+    border-bottom: 5px solid gray;
+}
